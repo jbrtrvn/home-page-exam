@@ -1,0 +1,135 @@
+/* index.css */
+
+body {
+    font-family: 'Russo One';
+    color: #ffffff; 
+    background-color: #222; 
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #ff6f00 !important; 
+  }
+  
+  .navbar .navbar-brand {
+    color: #ffffff; 
+    font-weight: bold; 
+    text-shadow: 1px 1px 2px #000, 0 0 25px #ff6f00, 0 0 5px #ff6f00;
+  }
+  
+  .navbar .nav-link {
+    color: #ffffff;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #ffd54f;
+  }
+  
+  .navbar .btn-outline-success {
+    color: #ffffff; 
+    border-color: #ffffff; 
+  }
+  
+  .navbar .btn-outline-success:hover {
+    background-color: #ffffff; 
+    color: #ff6f00; 
+  }
+  
+
+  .navbar .form-control {
+    border-color: #ffffff; 
+    color: #ffffff;
+  }
+  
+  .navbar .form-control::placeholder {
+    color: #ffffff; 
+  }
+  
+  /* Hero section styles */
+  .hero-section {
+    background-color: #ff6f00; 
+    color: #ffffff; 
+    padding: 4rem 0; 
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem; 
+    font-weight: bold; 
+  }
+  
+  .hero-section p {
+    font-size: 1.25rem; 
+  }
+  
+  .hero-section .btn-primary {
+    background-color: #ffffff; 
+    color: #ff6f00; 
+    border: none; 
+  }
+  
+  .hero-section .btn-primary:hover {
+    background-color: #ffd54f; 
+    color: #ffffff; 
+  }
+  
+  /* Carousel styles */
+  .carousel-sm {
+    max-height: 500px;
+    overflow: hidden;
+  }
+  
+  .carousel-inner img {
+    height: auto;
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* Card styles */
+  .card {
+    border: 1px solid #ff6f00; 
+  }
+  
+  .card-title {
+    color: #ff6f00; 
+  }
+  
+  .card-text {
+    color: #333; 
+  }
+  
+  .card-img-top {
+    height: 300px; 
+    object-fit: cover; 
+  }
+  
+  /* Animation effect for cards */
+  .card-animate {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-animate:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #454545; 
+    color: #ff6f00; 
+  }
+  
+  footer .text-center {
+    padding: 1rem 0;
+    font-size: 0.875rem; 
+  }
+  
+  footer .text-center a {
+    color: #ff6f00; 
+    text-decoration: none; 
+  }
+  
+  footer .text-center a:hover {
+    text-decoration: underline; 
+  }
+  
